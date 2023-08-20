@@ -46,8 +46,11 @@ public class MuseumService implements MuseumServiceInterface {
 
   @Override
   public Museum getMuseum(Long id) {
-    // TODO Auto-generated method stub
-    throw new InvalidCoordinateException();
+    Optional<Museum> museum = museumFakeDatabase.getMuseum(id);
+    if (museum.isEmpty()) {
+      throw new MuseumNotFoundException();
+    }
+    return museum.get();
   }
     
 }
