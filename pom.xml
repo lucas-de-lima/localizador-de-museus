@@ -61,7 +61,7 @@
     </dependency>
     
     <!-- For spring-boot-starter-actuator -->
-        <dependency>
+    <dependency>
   			<groupId>org.springframework.boot</groupId>
    			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
