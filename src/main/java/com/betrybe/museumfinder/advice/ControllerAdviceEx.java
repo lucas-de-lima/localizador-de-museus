@@ -1,4 +1,4 @@
-package com.betrybe.museumfinder.controller;
+package com.betrybe.museumfinder.advice;
 
 import com.betrybe.museumfinder.exception.InvalidCoordinateException;
 import com.betrybe.museumfinder.exception.MuseumNotFoundException;
